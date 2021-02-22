@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+
+
+</head>
+
+<body>
+    
+    <a-scene>
+
+        <!--Sky Box-->
+
+        <a-sky src="assets/stars.jpg">
+
+        </a-sky>
+
+        <!--Sun-->
+        <!--img src: solarsystemscope.com -->
+
+        <a-sphere src="assets/sun.jpg" position="0 -5 -300" radius="15" animation="property:rotation; to: 0 360 0; loop: true; dur: 4000; easing: linear;">
+
+        </a-sphere>
+
+        <!--Mercury-->
+        <!--img src: solarsystemscope.com -->
+
+        <a-entity position="0 -5 -300" animation="property:rotation;to: 0 360 0;loop:true;dur:14460;easing:linear;">
+
+            <a-sphere src="assets/mercury.jpg"  radius="0.4" position="40 0 0 "animation="property:rotation; to: 0 360 0; loop: true; dur: 8000; easing: linear;">
+    
+            </a-sphere>
+    
+        </a-entity> 
+
+        <!--Venus-->
+        <!--img src: solarsystemscope.com -->
+        
+
+        <a-entity position="0 -5 -300" animation="property:rotation;to: 0 360 0;loop:true;dur:50760;easing:linear;">
+
+            <a-sphere src="assets/venus.jpg" radius="1" position="60 0 0" animation="property:rotation; to: 0 360 0; loop: true; dur: 300000; easing: linear;">
+    
+            </a-sphere>
+    
+        </a-entity>
+
+        <!--Earth-->
+        <!--img src: solarsystemscope.com -->
+
+        <a-entity position="0 -5 -300" animation="property:rotation;to: 0 360 0;loop:true;dur:60000;easing:linear;">
+
+            <a-sphere src="assets/earth.jpg" radius="1.2" position="80 0 0" animation="property:rotation; to: 0 360 0; loop: true; dur: 1640; easing: linear;">
+
+                <a-sphere src="assets/moon.jpg" radius="0.2" position="3 0 0">
+
+                </a-sphere>
+
+            </a-sphere>
+
+        </a-entity>
+
+        <!--Mars-->
+        <!--img src: solarsystemscope.com -->
+
+        <a-entity position="0 -5 -300" animation="property:rotation;to: 0 360 0;loop:true;dur:113400;easing:linear;">
+
+            <a-sphere src="assets/mars.jpg" radius="0.55" position="100 0 0 "animation="property:rotation; to: 0 360 0; loop: true; dur: 1000; easing: linear;">
+    
+            </a-sphere>
+    
+        </a-entity>
+
+        <!--Jupiter-->
+        <!--img src: solarsystemscope.com -->
+
+        <a-entity position="0 -5 -300" animation="property:rotation;to: 0 360 0;loop:true;dur:711600;easing:linear;">
+
+            <a-sphere src="assets/jupiter.jpg" radius="11" position="150 0 0 "animation="property:rotation; to: 0 360 0; loop: true; dur: 530; easing: linear;">
+    
+            </a-sphere>
+    
+        </a-entity>
+
+        <!--Saturn-->
+        <!--img src: solarsystemscope.com-->
+
+        <a-entity position="0 -5 -300" animation="property:rotation;to: 0 360 0;loop:true;dur:1740000;easing:linear;">
+
+            <a-sphere src="assets/saturn.jpg" height="0.1" transparent="true" radius="10" position="200 0 0" rotation="0 0 0" animation="property:rotation; to: 0 360 0; loop: true; dur: 600; easing: linear;">
+    
+                <a-cylinder src="assets/rings.png" radius="16">
+
+                </a-cylinder>
+
+            </a-sphere>
+    
+        </a-entity>
+        
+        <!--Uranus-->
+        <!--img src: solarsystemscope.com-->
+
+        <a-entity position="0 -5 -300" animation="property:rotation;to: 0 360 0;loop:true;dur:1440000;easing:linear;">
+
+            <a-sphere src="assets/uranus.jpg" shadow radius="4.2" position="275 0 0 "animation="property:rotation; to: 0 360 0; loop: true; dur: 1300; easing: linear;">
+    
+            </a-sphere>
+    
+        </a-entity>
+
+        <!--Neptune-->
+        <!--img src: solarsystemscope.com-->
+
+        <a-entity position="0 -5 -300" animation="property:rotation;to: 0 360 0;loop:true;dur:9900000;easing:linear;">
+
+            <a-sphere src="assets/neptune.jpg" radius="4" position="310 0 0 "animation="property:rotation; to: 0 360 0; loop: true; dur: 1100 easing: linear;">
+    
+            </a-sphere>
+    
+        </a-entity>
+
+        <!--Pluto-->
+        <!--img src: solarsystemscope.com-->
+
+        <a-entity position="0 -5 -300" animation="property:rotation;to: 0 360 0;loop:true;dur: 14880000;easing:linear;">
+
+            <a-sphere src="assets/pluto.jpg" radius="0.35" position="350 0 0 "animation="property:rotation; to: 0 360 0; loop: true; dur: 1500; easing: linear;">
+    
+            </a-sphere>
+    
+        </a-entity>
+
+
+
+
+    </a-scene >
+
+</body>
+
+</html>
